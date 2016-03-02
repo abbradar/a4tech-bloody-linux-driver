@@ -136,6 +136,9 @@ void Mouse::listDevices() {
         std::string name;
 
         switch (desc.idProduct){
+            case BLOODY_V3_PID:
+                name = "Bloody V3";
+                break;
             case BLOODY_V5_PID:
                 name = "Bloody V5";
                 break;
